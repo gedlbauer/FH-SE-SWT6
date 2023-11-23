@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OrderManagement.Api</name>
+    </assembly>
+    <members>
+        <member name="M:OrderManagement.Api.Controllers.CustomersController.GetCustomerById(System.Guid)">
+            <summary>
+            Provides detailed data for a customer with the specified ID.
+            </summary>
+            <param name="customerId">Unique ID of customer</param>
+        </member>
+    </members>
+</doc>

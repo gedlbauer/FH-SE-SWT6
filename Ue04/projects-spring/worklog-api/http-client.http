@@ -1,0 +1,5 @@
+### hello
+GET localhost:8080/worklog/hello
+
+### employees
+GET localhost:8080/worklog/employees

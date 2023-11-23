@@ -1,0 +1,12 @@
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\bin\Debug\net6.0\OrderManagement.Dtos.deps.json
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\bin\Debug\net6.0\OrderManagement.Dtos.dll
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\bin\Debug\net6.0\OrderManagement.Dtos.pdb
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.csproj.AssemblyReference.cache
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.AssemblyInfoInputs.cache
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.AssemblyInfo.cs
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.dll
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\refint\OrderManagement.Dtos.dll
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\OrderManagement.Dtos.pdb
+C:\Users\edlba\source\repos\SWT\Ue05\OrderManagementEF\OrderManagement.Dtos\obj\Debug\net6.0\ref\OrderManagement.Dtos.dll

@@ -1,0 +1,89 @@
+﻿#
+# Use in VS Code
+# Install REST Client extension before
+#
+
+@url = http://localhost:8000
+@contentType = application/json
+
+###
+
+# Get all customers
+GET {{url}}/api/customers
+Accept: {{contentType}}
+
+###
+
+# Get customer by ID (success)
+GET {{url}}/api/customers/cccccccc-0000-0000-0000-111111111111
+Accept: {{contentType}}
+
+###
+
+# Get customer by ID (failure)
+GET {{url}}/api/customers/cccccccc-9999-9999-9999-999999999999
+Accept: {{contentType}}
+
+###
+
+# Create customer
+POST {{url}}/api/customers
+Content-Type:{{contentType}}
+
+{
+    "name": "Klaus Moser",
+    "rating": "B",
+    "address": {
+        "zipCode": 1010,
+        "city": "Wien",
+        "street": "Wiener Straße 9"
+    }
+}
+
+###
+
+# Update customer (success)
+PUT {{url}}/api/customers/cccccccc-0000-0000-0000-111111111111
+Content-Type:{{contentType}}
+
+{
+    "name": "Stefan Mayr",
+    "rating": "C"
+}
+
+###
+
+# Update customer (failure)
+PUT {{url}}/api/customers/cccccccc-9999-9999-9999-999999999999
+Content-Type:{{contentType}}
+
+{
+    "name": "Stefan Mayr",
+    "rating": "C"
+}
+
+###
+# Delete Customer
+DELETE {{url}}/api/customers/cccccccc-0000-0000-0000-211111111111
+
+###
+# Get orders of customer
+GET {{url}}/api/customers/cccccccc-0000-0000-0000-111111111111/orders
+Accept: {{contentType}}
+
+
+###
+# Get order by ID
+GET {{url}}/api/orders/aaaaaaaa-0000-0000-0000-111111111111
+Accept: {{contentType}}
+
+###
+# Create order
+POST {{url}}/api/customers/cccccccc-0000-0000-0000-111111111111/orders
+Content-Type: {{contentType}}
+
+{
+    "orderDate": "2021-10-12T00:00:00+01:00",
+    "article": "Logitech Tastatur",
+    "totalPrice": 99.90
+}
